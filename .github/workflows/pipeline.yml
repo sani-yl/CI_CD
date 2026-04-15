@@ -1,3 +1,4 @@
+cat > .github/workflows/pipeline.yml << 'EOF'
 name: Deployment pipeline
 
 on:
@@ -17,3 +18,5 @@ jobs:
         run: npm install
       - name: Check style
         run: npm run eslint
+
+EOF
