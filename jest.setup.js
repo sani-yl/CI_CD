@@ -1,5 +1,7 @@
-/* eslint-disable no-undef */
-const { TextEncoder, TextDecoder } = require('util')
-
-global.TextEncoder = TextEncoder
-global.TextDecoder = TextDecoder
+{
+  "jest": {
+    "testEnvironment": "jsdom",
+    "setupFiles": ["<rootDir>/jest.setup.js"],
+    "testPathIgnorePatterns": ["e2e-tests"]
+  }
+}
