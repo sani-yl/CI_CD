@@ -2,7 +2,6 @@ const js = require('@eslint/js')
 const react = require('eslint-plugin-react')
 const jest = require('eslint-plugin-jest')
 const globals = require('globals')
-
 module.exports = [
   {
     ignores: [
@@ -10,7 +9,9 @@ module.exports = [
       'eslint.config.js',
       '.eslintrc.js',
       'node_modules/**',
-      'dist/**'
+      'dist/**',
+      'e2e/**',
+      'playwright.config.js'
     ]
   },
   js.configs.recommended,
