@@ -1,7 +1,1 @@
-{
-  "jest": {
-    "testEnvironment": "jsdom",
-    "setupFiles": ["<rootDir>/jest.setup.js"],
-    "testPathIgnorePatterns": ["e2e-tests"]
-  }
-}
+import '@testing-library/jest-dom'
