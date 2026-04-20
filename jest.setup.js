@@ -1,1 +1,1 @@
-import '@testing-library/jest-dom'
+requre'@testing-library/jest-dom')
