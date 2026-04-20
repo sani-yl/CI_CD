@@ -32,13 +32,9 @@
     "react-router-dom": "^7.13.1"
   },
   "jest": {
-    "testEnvironment": "jsdom",
-    "setupFiles": [
-      "<rootDir>/jest.setup.js"
-    ],
-    "testPathIgnorePatterns": [
-      "e2e-tests"
-    ]
+  "testEnvironment": "jsdom",
+  "setupFilesAfterFramework": ["<rootDir>/jest.setup.js"],
+  "testPathIgnorePatterns": ["e2e"]
   },
   "devDependencies": {
     "@babel/core": "^7.29.0",
