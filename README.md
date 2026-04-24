@@ -14,3 +14,4 @@ Start by running `npm install` inside the project folder
 ## Deployed App
 [Live App](https://ci-cd-0pnn.onrender.com)
 # Exercise 13
+health check fixed
