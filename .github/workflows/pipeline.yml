@@ -6,8 +6,8 @@ on:
       - main
   pull_request:
     branches: [main]
-    types: [opended, synchronize]
-    
+    types: [opened, synchronize]
+
 jobs:
   simple_deployment_pipeline:
     runs-on: ubuntu-latest
