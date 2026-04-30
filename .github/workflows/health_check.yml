@@ -1,4 +1,4 @@
-cat > .github/workflows/health_check.yml << 'EOF'
+
 name: Periodic Health Check
 
 on:
@@ -16,4 +16,3 @@ jobs:
           url: https://ci-cd-0pnn.onrender.com/health
           max-attempts: 3
           retry-delay: 5s
-EOF
